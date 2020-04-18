@@ -1,3 +1,4 @@
-# design-pattern
+# design-pattern 设计模式PHP\Go语言实现
 
-设计模式go语言实现
+## 策略模式 `Strategy`
+
