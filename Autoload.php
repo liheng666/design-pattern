@@ -1,7 +1,9 @@
 <?php
 
+// 命名空间和基础文件目录映射配置
 $namespace = [
     'Strategy' => '/Strategy',
+    'Observer' => '/Observer',
 ];
 
 $autoload = new Autoload();
