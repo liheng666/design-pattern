@@ -2,12 +2,12 @@
 
 namespace Observer;
 
-// 小孩子对象
+// 小孩子被观察对象
 class Children implements SubjectInterface
 {
-    protected $observers = [];
+    protected array $observers = [];
 
-    protected $score = null;
+    protected float $score = 0;
 
     public function registerObserver(ObserverInterface $observer)
     {

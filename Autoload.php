@@ -4,6 +4,7 @@
 $namespace = [
     'Strategy' => '/Strategy',
     'Observer' => '/Observer',
+    'Decorator' => '/Decorator',
 ];
 
 $autoload = new Autoload();
