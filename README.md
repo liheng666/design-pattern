@@ -7,3 +7,5 @@
 ## 观察者模式 [ObserverTest.php](https://github.com/liheng666/design-pattern/blob/master/ObserverTest.php)
 
 ## 装饰器模式 [DecoratorTest.php](https://github.com/liheng666/design-pattern/blob/master/DecoratorTest.php)
+
+## 工厂方法模式 
