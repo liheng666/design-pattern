@@ -5,6 +5,7 @@ $namespace = [
     'Strategy' => '/Strategy',
     'Observer' => '/Observer',
     'Decorator' => '/Decorator',
+    'Factory' => '/Factory',
 ];
 
 $autoload = new Autoload();
@@ -83,10 +84,9 @@ class Autoload
 
         foreach ($this->prefix[$prefix] as $base_dir) {
             $file = $base_dir . str_replace('\\', '/', $relative_class) . '.php';
-            // echo $file . "\n";
             if (file_exists($file)) {
-                echo '自动加载:' . $prefix . $relative_class . "\n" .
-                    $file . "\n";
+                // echo '自动加载:' . $prefix . $relative_class . "\n" .
+                //     $file . "\n";
                 require $file;
                 return $file;
             }
