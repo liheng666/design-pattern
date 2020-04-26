@@ -1,9 +1,6 @@
 <?php
 
-use Factory\Mage;
-use Factory\RoleOperation;
 use Factory\RoleOperationOne;
-use Factory\Soldiers;
 
 require './Autoload.php';
 
