@@ -13,3 +13,5 @@
 ## 抽象工厂模式 提供一个接口,用于创建相关的或者依赖对象的家族，而不需要指定具体的类。
 
 ## 单例模式 [SingletonTest.php](https://github.com/liheng666/design-pattern/blob/master/SingletonTest.php)
+
+## 状态模式 允许对象在内部状态改变时改变它的行为，对象看起来像是修改了它的类 [StateTest.php](https://github.com/liheng666/design-pattern/blob/master/StateTest.php) 【这次咱们模拟个对象:)】

@@ -6,6 +6,7 @@ $namespace = [
     'Observer' => '/Observer',
     'Decorator' => '/Decorator',
     'Factory' => '/Factory',
+    'State' => '/State',
 ];
 
 $autoload = new Autoload();
@@ -52,9 +53,8 @@ class Autoload
 
     /**
      * 加载类文件
-     *
-     * @param string $class 类名
-     * @return void
+     * @param $class
+     * @return bool|string
      */
     public function loadClass($class)
     {
