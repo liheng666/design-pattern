@@ -14,4 +14,7 @@
 
 ## 单例模式 [SingletonTest.php](https://github.com/liheng666/design-pattern/blob/master/SingletonTest.php)
 
-## 状态模式 允许对象在内部状态改变时改变它的行为，对象看起来像是修改了它的类 [StateTest.php](https://github.com/liheng666/design-pattern/blob/master/StateTest.php) 【这次咱们模拟个对象:)】
+## 状态模式 允许对象在内部状态改变时改变它的行为，对象看起来像是修改了它的类 [StateTest.php](https://github.com/liheng666/design-pattern/blob/master/StateTest.php) ps:这次咱们模拟个对象:)
+
+## 命令模式 将发出请求的对象和执行请求的对象解耦。
+实现一个文件缓存的简易队列 1. 队列添加：[CommandAddJobTest.php](https://github.com/liheng666/design-pattern/blob/master/CommandAddJobTest.php)   2.队列监听 [CommandRunTest.php](https://github.com/liheng666/design-pattern/blob/master/CommandRunTest.php)

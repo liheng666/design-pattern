@@ -7,6 +7,7 @@ $namespace = [
     'Decorator' => '/Decorator',
     'Factory' => '/Factory',
     'State' => '/State',
+    'Command' => '/Command',
 ];
 
 $autoload = new Autoload();
